@@ -27,26 +27,20 @@ const Header = () => {
 						<a href="/">All</a>
 					</li>
 					<li>
-						<a href="/">Clothes</a>
+						<a href="/category/clothes">Clothes</a>
 					</li>
 					<li>
-						<a href="/">Electronics</a>
+						<a href="/category/electronics">Electronics</a>
 					</li>
 					<li>
-						<a href="/">Furnitures</a>
-					</li>
-					<li>
-						<a href="/">Toys</a>
-					</li>
-					<li>
-						<a href="/">Others</a>
+						<a href="/category/others">Others</a>
 					</li>
 				</ul>
 			</div>
 			<div className="navbar-right">
 				<ul>
 					<li className="navbar-email" onClick={handleToggle}>
-						platzi@example.com
+						sergio.dev@example.com
 					</li>
 					<li className="navbar-shopping-cart" onClick={() => setToggleOrders(!toggleOrders)}>
 						<img src={shoppingCart} alt="shopping cart" />

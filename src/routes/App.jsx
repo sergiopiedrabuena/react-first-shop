@@ -23,6 +23,7 @@ const App = () => {
 				<Layout>
 					<Routes>
 						<Route path="/" element={<Home />} />
+						<Route path="/category/:category" element={<Home />} />
 						<Route path="/login" element={<Login />} />
 						<Route path="/password-recovery" element={<PasswordRecovery />} />
 						<Route path="/send-email" element={<SendEmail />} />
@@ -31,7 +32,7 @@ const App = () => {
 						<Route path="/signup" element={<CreateAccount />} />
 						<Route path="/checkout" element={<Checkout />} />
 						<Route path="/orders" element={<Orders />} />
-						<Route path="*" element={<NotFound />} />
+						{/* <Route path="*" element={<NotFound />} /> */}
 					</Routes>
 				</Layout>
 			</BrowserRouter>

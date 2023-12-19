@@ -6,9 +6,8 @@
 	display: grid;
 	place-items: center;
 }
-.title {
+.MyOrder .title-container .title {
 	font-size: var(--lg);
-	margin-bottom: 40px;
 }
 .Checkout-container {
 	display: grid;
